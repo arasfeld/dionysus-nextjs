@@ -1,7 +1,7 @@
-import Image from "next/image";
-import { buttonVariants } from "@/components/ui/button"
-import { TypographyInlineCode } from "@/components/ui/typography";
-import { ThemeToggle } from "@/components/theme-toggle";
+import Image from 'next/image';
+import { buttonVariants } from '@/components/ui/button';
+import { TypographyInlineCode } from '@/components/ui/typography';
+import { ThemeToggle } from '@/components/theme-toggle';
 
 export default function Home() {
   return (
@@ -20,11 +20,8 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <TypographyInlineCode>
-              src/app/page.tsx
-            </TypographyInlineCode>
-            .
+            Get started by editing{' '}
+            <TypographyInlineCode>src/app/page.tsx</TypographyInlineCode>.
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
@@ -33,7 +30,7 @@ export default function Home() {
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
-            className={buttonVariants({ variant: "default" })}
+            className={buttonVariants({ variant: 'default' })}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -48,7 +45,7 @@ export default function Home() {
             Deploy now
           </a>
           <a
-            className={buttonVariants({ variant: "outline" })}
+            className={buttonVariants({ variant: 'outline' })}
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +56,7 @@ export default function Home() {
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
-          className={buttonVariants({ variant: "link" })}
+          className={buttonVariants({ variant: 'link' })}
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -74,7 +71,7 @@ export default function Home() {
           Learn
         </a>
         <a
-          className={buttonVariants({ variant: "link" })}
+          className={buttonVariants({ variant: 'link' })}
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -89,7 +86,7 @@ export default function Home() {
           Examples
         </a>
         <a
-          className={buttonVariants({ variant: "link" })}
+          className={buttonVariants({ variant: 'link' })}
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
