@@ -49,7 +49,7 @@ export function BmiForm() {
               <FormItem>
                 <FormLabel>Height (ft)</FormLabel>
                 <FormControl>
-                  <Input type="number" {...field} />
+                  <Input max={8} min={0} type="number" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -62,7 +62,7 @@ export function BmiForm() {
               <FormItem>
                 <FormLabel>Height (in)</FormLabel>
                 <FormControl>
-                  <Input type="number" {...field} />
+                  <Input max={12} min={0} type="number" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -77,7 +77,7 @@ export function BmiForm() {
             <FormItem>
               <FormLabel>Weight (lbs)</FormLabel>
               <FormControl>
-                <Input type="number" {...field} />
+                <Input max={1500} min={0} type="number" {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

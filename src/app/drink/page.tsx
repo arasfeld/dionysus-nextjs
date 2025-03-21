@@ -1,4 +1,4 @@
-import { BmiForm } from '@/components/bmi-form';
+import { DrinkForm } from '@/components/drink-form';
 import {
   Card,
   CardContent,
@@ -7,17 +7,17 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 
-export default function Bmi() {
+export default function Drink() {
   return (
     <div className="grid items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex items-center">
         <Card>
           <CardHeader>
-            <CardTitle>BMI Calculator</CardTitle>
-            <CardDescription>Calculate your BMI</CardDescription>
+            <CardTitle>Drink Entry</CardTitle>
+            <CardDescription>Enter your drink information</CardDescription>
           </CardHeader>
           <CardContent>
-            <BmiForm />
+            <DrinkForm />
           </CardContent>
         </Card>
       </main>
